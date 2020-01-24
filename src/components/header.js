@@ -1,24 +1,25 @@
 import React from "react"
+import { Link } from "gatsby";
 import "./header.css"
 
-import { Link } from "gatsby";
+export default ({data}) => {
+	console.log(data);
+	return (
+		<header>
+			<h1>{data.site.siteMetadata.title}</h1>
+			<h2>{data.site.siteMetadata.subTitle}</h2>
 
-const LinkList = props => (
-	<li>
-		<Link to={props.to}>{props.children}</Link>
-	</li>
-)
-
-export default props => (
-	<>
-		<h1 className="header">This is a header.</h1>
-		<ul>
-			<LinkList to="/">Home</LinkList>
-			<LinkList to="/#skills">Skills</LinkList>
-			<LinkList to="/#web">Web Projects</LinkList>
-			<LinkList to="/#graphic">Graphic Design</LinkList>
-			<LinkList to="/#testimonials">Testimonials</LinkList>
-			<LinkList to="/#contact">Contact</LinkList>
-		</ul>
-	</>
-)
+			<nav>
+				<ul>
+					<li><Link to="/">Home</Link></li>
+					<li><Link to="/#skills">Skills</Link></li>
+					<li><Link to="/#web">Web Projects</Link></li>
+					<li><Link to="/#graphic">Graphic Design</Link></li>
+					<li><Link to="/#testimonials">Testimonials</Link></li>
+					<li><Link to="/#resume">Resume</Link></li>
+					<li><Link to="/#contact">Contact</Link></li>
+				</ul>
+			</nav>
+		</header>
+	)
+}

@@ -7,7 +7,15 @@ import "./header.css"
 export default () => {
 	return (
 		<header>
-			<Navbar alignLinks="right" brand={<a className="brand-logo" href="#">Dan Mathisen</a>}>
+			<Navbar
+				alignLinks="right"
+				brand={
+					<div>
+						<a href="/">Dan Mathisen</a><br/>
+						<span>Full-stack web application developer</span>
+					</div>
+				}
+			>
 				<NavItem href="/#skills">Skills</NavItem>
 				<NavItem href="/#web">Web Projects</NavItem>
 				<NavItem href="/#graphic">Graphic Design</NavItem>

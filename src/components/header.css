@@ -2,22 +2,27 @@ header {
   background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
 }
 header nav {
-	height: 125px;
-	line-height: 125px;
 	background-color: transparent;
 	box-shadow: none;
+	height: 100px;
+	line-height: 35px;
+	padding: 15px 25px;
+}
+header nav .brand-logo span {
+	font-size: 1.3rem;
 }
 header nav ul a {
 	display: inline;
 	padding: 15px;
+	line-height: 75px;
 }
 
 .waves {
   width: 100%;
   height: 100px;
-  margin-bottom: -7px;
   min-height: 100px;
-  max-height: 150px;
+  max-height: 100px;
+  margin-bottom: -7px;
 }
 
 .parallax > use {

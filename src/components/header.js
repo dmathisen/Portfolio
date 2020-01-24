@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import "./header.css"
 
 export default ({data}) => {
-	console.log(data);
 	return (
 		<header>
 			<h1>{data.site.siteMetadata.title}</h1>

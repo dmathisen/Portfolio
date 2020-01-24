@@ -1,24 +1,22 @@
 import React from "react"
-import { Link } from "gatsby";
+
+import { Navbar, NavItem } from 'react-materialize';
 import "./header.css"
 
 export default ({data}) => {
 	return (
 		<header>
-			<h1>{data.site.siteMetadata.title}</h1>
-			<h2>{data.site.siteMetadata.subTitle}</h2>
-
-			<nav>
-				<ul>
-					<li><Link to="/">Home</Link></li>
-					<li><Link to="/#skills">Skills</Link></li>
-					<li><Link to="/#web">Web Projects</Link></li>
-					<li><Link to="/#graphic">Graphic Design</Link></li>
-					<li><Link to="/#testimonials">Testimonials</Link></li>
-					<li><Link to="/#resume">Resume</Link></li>
-					<li><Link to="/#contact">Contact</Link></li>
-				</ul>
-			</nav>
+			<Navbar
+				alignLinks="right"
+				brand={<a className="brand-logo" href="#">Dan Mathisen</a>}
+			>
+				<NavItem href="/#skills">Skills</NavItem>
+				<NavItem href="/#web">Web Projects</NavItem>
+				<NavItem href="/#graphic">Graphic Design</NavItem>
+				<NavItem href="/#testimonials">Testimonials</NavItem>
+				<NavItem href="/#resume">Resume</NavItem>
+				<NavItem href="/#contact">Contact</NavItem>
+			</Navbar>
 		</header>
 	)
 }

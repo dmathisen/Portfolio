@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header"
+import Footer from "./footer"
 
 export default ({ children }) => {
 	const data = useStaticQuery(graphql`
@@ -23,7 +24,10 @@ export default ({ children }) => {
 			</Helmet>
 
 			<Header data={data} />
+
 			{children}
+
+			<Footer />
 		</>
 	)
 }

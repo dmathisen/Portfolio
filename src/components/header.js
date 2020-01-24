@@ -3,7 +3,7 @@ import React from "react"
 import { Navbar, NavItem } from 'react-materialize';
 import "./header.css"
 
-export default ({data}) => {
+export default props => {
 	return (
 		<header>
 			<Navbar

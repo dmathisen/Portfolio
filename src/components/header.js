@@ -4,7 +4,7 @@ import HeaderWaves from "./headerWaves"
 
 import "./header.css"
 
-export default props => {
+export default () => {
 	return (
 		<header>
 			<Navbar alignLinks="right" brand={<a className="brand-logo" href="#">Dan Mathisen</a>}>
@@ -15,7 +15,7 @@ export default props => {
 				<NavItem href="/#resume">Resume</NavItem>
 				<NavItem href="/#contact">Contact</NavItem>
 			</Navbar>
-			
+
 			<HeaderWaves />
 		</header>
 	)

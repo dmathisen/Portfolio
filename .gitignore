@@ -1,2 +1,6 @@
 .cache
 node_modules
+
+public/page-data
+public/static
+public/index.html

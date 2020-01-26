@@ -34,17 +34,23 @@ export default () => {
 
 			<Container>
 				<Row>
-					<Col s={4}>
-						<h5 className="center-align">Languages</h5>
-						{ languages.map(item => <Card data={ item } />) }
+					<Col s={12} l={6}>
+						<h5>Languages</h5>
+						<div className="card-wrapper">
+							{ languages.map(item => <Card data={ item } />) }
+						</div>
 					</Col>
-					<Col s={4}>
-						<h5 className="center-align">Libraries</h5>
-						{ libraries.map(item => <Card data={ item } />) }
+					<Col s={12} l={6}>
+						<h5>Libraries</h5>
+						<div className="card-wrapper">
+							{ libraries.map(item => <Card data={ item } />) }
+						</div>
 					</Col>
-					<Col s={4}>
-						<h5 className="center-align">Other skills</h5>
-						{ others.map(item => <Card data={ item } />) }
+					<Col s={12}>
+						<h5>Other skills</h5>
+						<div className="card-wrapper">
+							{ others.map(item => <Card data={ item } />) }
+						</div>
 					</Col>
 				</Row>
 			</Container>

@@ -25,6 +25,12 @@ module.exports = {
 				color: "#fff"
 			},
 			{
+				name: "Typescript",
+				type: "language",
+				image: "typescript.png",
+				color: "#fff"
+			},
+			{
 				name: "PHP",
 				type: "language",
 				image: "php.png",
@@ -63,12 +69,6 @@ module.exports = {
 				color: "#fff"
 			},
 			{
-				name: "Typescript",
-				type: "library",
-				image: "typescript.png",
-				color: "#fff"
-			},
-			{
 				name: "React",
 				type: "library",
 				image: "react.png",
@@ -87,24 +87,6 @@ module.exports = {
 				color: "#fff"
 			},
 			{
-				name: "Kendo",
-				type: "library",
-				image: "progress-kendo.png",
-				color: "#fff"
-			},
-			{
-				name: "Bootstrap CSS",
-				type: "library",
-				image: "bootstrap.png",
-				color: "#fff"
-			},
-			{
-				name: "Materialize CSS",
-				type: "library",
-				image: "materialize.png",
-				color: "#fff"
-			},
-			{
 				name: "Webpack",
 				type: "library",
 				image: "webpack.png",
@@ -120,6 +102,24 @@ module.exports = {
 				name: "Grunt",
 				type: "library",
 				image: "grunt.png",
+				color: "#fff"
+			},
+			{
+				name: "Kendo",
+				type: "library",
+				image: "progress-kendo.png",
+				color: "#fff"
+			},
+			{
+				name: "Bootstrap CSS",
+				type: "library",
+				image: "bootstrap.png",
+				color: "#fff"
+			},
+			{
+				name: "Materialize CSS",
+				type: "library",
+				image: "materialize.png",
 				color: "#fff"
 			},
 			{

@@ -1,18 +1,30 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 import { Navbar, NavItem } from "react-materialize";
-import HeaderWaves from "./headerWaves"
 
+import HeaderWaves from "./headerWaves"
 import "./header.css"
 
 export default () => {
+	const data = useStaticQuery(graphql`
+		query {
+			site {
+				siteMetadata {
+					title
+					subTitle
+				}
+			}
+		}
+	`);
+
 	return (
 		<header>
 			<Navbar
 				alignLinks="right"
 				brand={
 					<div>
-						<a href="/">Dan Mathisen</a><br/>
-						<span>Full-stack web application developer</span>
+						<a href="/">{ data.site.siteMetadata.title }</a><br/>
+						<span>{ data.site.siteMetadata.subTitle }</span>
 					</div>
 				}
 			>

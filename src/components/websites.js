@@ -35,7 +35,7 @@ export default () => {
                 <Col s={12} style={{marginTop: 50 + 'px'}}>
                     <h3>Websites</h3>
                     <div className="website-wrapper">
-                        { websites.map(item => <WebsiteItem website={ item } technologies={ technologies } />) }
+                        { websites.map(item => <WebsiteItem website={ item } technologies={ technologies } key={ item.name } />) }
                     </div>
                 </Col>
             </Row>

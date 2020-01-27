@@ -31,18 +31,18 @@ export default () => {
                 <Col s={12} l={6}>
                     <h5>Languages</h5>
                     <div className="skill-item-wrapper">
-                        { languages.map(item => <SkillItem data={ item } />) }
+                        { languages.map(item => <SkillItem data={ item } key={ item.name } />) }
                     </div>
 
                     <h5>Design</h5>
                     <div className="skill-item-wrapper">
-                        { others.map(item => <SkillItem data={ item } />) }
+                        { others.map(item => <SkillItem data={ item } key={ item.name } />) }
                     </div>
                 </Col>
                 <Col s={12} l={6}>
                     <h5>Libraries / Other</h5>
                     <div className="skill-item-wrapper">
-                        { libraries.map(item => <SkillItem data={ item } />) }
+                        { libraries.map(item => <SkillItem data={ item } key={ item.name } />) }
                     </div>
                 </Col>
             </Row>

@@ -14,13 +14,13 @@ export default ({website, technologies}) => {
                 <h5 className="website-item-title">{website.name}</h5>
                 <p>Here is the standard card with an image thumbnail.</p>
 
-                <div class="website-item-tech-list">
+                <div className="website-item-tech-list">
                     <p><strong>Built using:</strong></p>
                     {
                         website.technologies.map(technology => {
                             const techDetails = technologies.find(tech => tech.name === technology);
                             const techImageUrl = `/images/technologies/${techDetails.image}`;
-                            return <img src={techImageUrl} alt={techDetails.name} />
+                            return <img src={techImageUrl} alt={techDetails.name} key={techDetails.name} />
                         })
                     }
                 </div>

@@ -8,8 +8,9 @@ export default() => {
 		<Container id="contact">
 			<Row>
 				<Col s={12}>
+					<h5>Find Me</h5>
+
 					<div className="contact-wrapper">
-						<h5>Find Me</h5>
 
 						{/* icons from https://www.iconfinder.com/iconsets/logos-and-brands */}
 

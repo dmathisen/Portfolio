@@ -149,12 +149,6 @@ module.exports = {
 				color: "#fff"
 			},
 			{
-				name: "UI/UX Design",
-				type: "other",
-				image: "ui-ux.png",
-				color: "#fff"
-			},
-			{
 				name: "Adobe Photoshop",
 				type: "other",
 				image: "adobe-photoshop.png",
@@ -170,6 +164,12 @@ module.exports = {
 				name: "Adobe InDesign",
 				type: "other",
 				image: "adobe-indesign.png",
+				color: "#fff"
+			},
+			{
+				name: "UI/UX Design",
+				type: "other",
+				image: "ui-ux.png",
 				color: "#fff"
 			},
 			{

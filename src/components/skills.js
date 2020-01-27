@@ -32,17 +32,16 @@ export default () => {
                     <div className="card-wrapper">
                         { languages.map(item => <Card data={ item } />) }
                     </div>
+
+                    <h5>Misc.</h5>
+                    <div className="card-wrapper">
+                        { others.map(item => <Card data={ item } />) }
+                    </div>
                 </Col>
                 <Col s={12} l={6}>
                     <h5>Libraries</h5>
                     <div className="card-wrapper">
                         { libraries.map(item => <Card data={ item } />) }
-                    </div>
-                </Col>
-                <Col s={12}>
-                    <h5>Other skills</h5>
-                    <div className="card-wrapper">
-                        { others.map(item => <Card data={ item } />) }
                     </div>
                 </Col>
             </Row>

@@ -29,8 +29,8 @@ export default () => {
 				}
 			>
 				<NavItem href="/#skills">Skills</NavItem>
-				<NavItem href="/#web">Web Projects</NavItem>
-				<NavItem href="/#graphic">Graphic Design</NavItem>
+				<NavItem href="/#websites">Web Projects</NavItem>
+				<NavItem href="/#graphics">Graphic Design</NavItem>
 				<NavItem href="/#testimonials">Testimonials</NavItem>
 				<NavItem href="/#resume">Resume</NavItem>
 				<NavItem href="/#contact">Contact</NavItem>

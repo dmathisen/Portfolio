@@ -26,7 +26,7 @@ export default () => {
     const others = technologies.filter(item => item.type === 'other');
     
     return (
-        <Container>
+        <Container id="skills">
             <Row>
                 <Col s={12} l={6}>
                     <h5>Languages</h5>

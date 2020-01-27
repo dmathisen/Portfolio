@@ -4,6 +4,26 @@ module.exports = {
 	siteMetadata: {
 		title: 'Dan Mathisen',
 		subTitle: 'Full-stack web application developer',
+		testimonials: [
+			{
+				personName: "Cherie Kirkland, PMP",
+				personTitle: "Senior Manager, Portfolio Management at Cox Communications",
+				personImage: "cherie-kirkland.jpg",
+				content: "I was fortunate to work with Dan on several projects at KIT and to have him as a lead developer on one of our more complex projects. He is, in the nutshell, one of the most dedicated, competent professionals with which I've had the opportunity to work. In addition to his skill set, Dan has a positive attitude and always willing to assist internally with issues and discuss directly with clients when needed"
+			},
+			{
+				personName: "Anthony J. Malach - SAFe, CSM",
+				personTitle: "Manager, Digital Marketing & Analytics at Herbalife",
+				personImage: "anthony-malach.jpg",
+				content: "Dan worked as a remote technical SME on our company OVP. He was without a doubt the most reliable, responsive and effective technical resource on the vendor team; my own internal team grew to rely on and respect his technical insights, troubleshooting & programming skills. With Dan as our technical POC, we experienced a high resolution rate, usually by his own hand; when issues needed to be shared or escalated, he remained our advocate until it met closure. I highly recommend Dan to any organization who is lucky enough to pick up his resume!"
+			},
+			{
+				personName: "Brian Kaufman",
+				personTitle: "Regional Account Director at Brightcove",
+				personImage: "brian-kaufman.jpg",
+				content: "Every conversation I had with Dan was productive. He stepped up to the plate many times (when he didn't have to), and helped solve problems day in and day out. That, paired with fantastic developer skills, make him a strong asset to any project."
+			}
+		],
 		graphics: [
 			{
 				name: "Landscaping Flyer",

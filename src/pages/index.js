@@ -6,6 +6,7 @@ import Quote from "../components/about/quote";
 import Skills from "../components/skills/skills";
 import Websites from "../components/websites/websites";
 import GraphicDesign from "../components/graphics/graphics";
+import Testimonials from "../components/testimonials/testimonials"
 
 export default () => {
 	return (
@@ -18,6 +19,7 @@ export default () => {
 			<Skills />
 			<Websites />
 			<GraphicDesign />
+			<Testimonials />
 		</Layout>
 	)
 }

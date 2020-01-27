@@ -2,7 +2,8 @@ import React from 'react';
 import { Container, Row, Col } from "react-materialize";
 import { useStaticQuery, graphql } from "gatsby";
 
-import SkillItem from "./skill-item"
+import SkillItem from "./skillItem"
+import "./skills.css"
 
 export default () => {
     const data = useStaticQuery(graphql`

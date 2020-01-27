@@ -1,5 +1,4 @@
 import React from "react";
-import "./skill-item.css"
 
 export default ({data}) => {
     const imageUrl = `/images/technologies/${data.image}`;

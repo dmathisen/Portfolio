@@ -33,13 +33,13 @@ export default () => {
                         { languages.map(item => <Card data={ item } />) }
                     </div>
 
-                    <h5>Misc.</h5>
+                    <h5>Design</h5>
                     <div className="card-wrapper">
                         { others.map(item => <Card data={ item } />) }
                     </div>
                 </Col>
                 <Col s={12} l={6}>
-                    <h5>Libraries</h5>
+                    <h5>Libraries / Other</h5>
                     <div className="card-wrapper">
                         { libraries.map(item => <Card data={ item } />) }
                     </div>

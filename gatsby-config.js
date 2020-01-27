@@ -93,6 +93,18 @@ module.exports = {
 				color: "#fff"
 			},
 			{
+				name: "Git",
+				type: "library",
+				image: "git.png",
+				color: "#fff"
+			},
+			{
+				name: "Wordpress",
+				type: "library",
+				image: "wordpress.png",
+				color: "#fff"
+			},
+			{
 				name: "Gulp",
 				type: "library",
 				image: "gulp.png",
@@ -111,18 +123,6 @@ module.exports = {
 				color: "#fff"
 			},
 			{
-				name: "Bootstrap CSS",
-				type: "library",
-				image: "bootstrap.png",
-				color: "#fff"
-			},
-			{
-				name: "Materialize CSS",
-				type: "library",
-				image: "materialize.png",
-				color: "#fff"
-			},
-			{
 				name: "Sass",
 				type: "library",
 				image: "sass.png",
@@ -134,18 +134,30 @@ module.exports = {
 				image: "less.png",
 				color: "#fff"
 			},
-
-			// other
 			{
-				name: "Git",
-				type: "other",
-				image: "git.png",
+				name: "Bootstrap CSS",
+				type: "library",
+				image: "bootstrap.png",
 				color: "#fff"
 			},
 			{
-				name: "Wordpress",
+				name: "Materialize CSS",
+				type: "library",
+				image: "materialize.png",
+				color: "#fff"
+			},
+
+			// other
+			{
+				name: "UI/UX Design",
 				type: "other",
-				image: "wordpress.png",
+				image: "ui-ux.png",
+				color: "#fff"
+			},
+			{
+				name: "Responsive Design",
+				type: "other",
+				image: "responsive-design.png",
 				color: "#fff"
 			},
 			{
@@ -164,18 +176,6 @@ module.exports = {
 				name: "Adobe InDesign",
 				type: "other",
 				image: "adobe-indesign.png",
-				color: "#fff"
-			},
-			{
-				name: "UI/UX Design",
-				type: "other",
-				image: "ui-ux.png",
-				color: "#fff"
-			},
-			{
-				name: "Responsive Design",
-				type: "other",
-				image: "responsive-design.png",
 				color: "#fff"
 			}
 		]

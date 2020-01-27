@@ -9,7 +9,7 @@ export default ({website, technologies}) => {
             <Card
                 className="website-item"
                 header={<CardTitle image={imageUrl}></CardTitle>}
-                actions={[ <a key="1" href="#">Visit Website</a> ]}
+                actions={[ <a href={website.website} target="_blank" key="1">Visit Website</a> ]}
             >
                 <h5 className="website-item-title">{website.name}</h5>
                 <p>Here is the standard card with an image thumbnail.</p>

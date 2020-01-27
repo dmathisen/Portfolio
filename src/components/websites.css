@@ -8,15 +8,25 @@
     margin-right: 30px;
 }
 
-.website-item .card-image img {
+.website-item.card .card-image img {
     margin: 24px auto 0;
-    max-width: 250px;
+    max-width: 252px; /* 2px for border */
     border: 1px solid #ddd;
 }
 
-.website-item-tech-list {
+.website-item.card .card-content {
+	padding: 24px;
+	padding-bottom: 60px;
+}
+.website-item.card .card-content .website-item-tech-list {
     margin-top: 25px;
 }
-.website-item-tech-list img {
+.website-item.card .card-content .website-item-tech-list img {
     width: 60px;
+}
+
+.website-item.card .card-action {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
 }

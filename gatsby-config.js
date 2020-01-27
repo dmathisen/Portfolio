@@ -9,93 +9,100 @@ module.exports = {
 				name: "Portfolio",
 				desc: "",
 				technologies: ["Node JS", "React", "GraphQL", "Materialize CSS", "UI/UX Design"],
-				website: "",
+				website: "https://danmathisen.com/",
 				image: "portfolio.png"
 			},
 			{
 				name: "MIK Fund Solutions",
 				desc: "",
 				technologies: ["C#", ".NET", "SQL", "Angular", "Kendo", "Typescript", "Less"],
-				website: "",
+				website: "http://www.mikfs.com/",
 				image: "mikfs.png"
 			},
 			{
 				name: "Hoboken Brewing Co",
 				desc: "",
 				technologies: ["Wordpress", "PHP", "SQL", "HTML", "CSS", "UI/UX Design"],
-				website: "",
+				website: "https://hobokenbrewing.beer/",
 				image: "hoboken-brewing-co.png"
 			},
 			{
 				name: "WhoWeUse",
 				desc: "",
 				technologies: ["Node JS", "Javascript", "PHP", "MongoDB", "Sass", "Grunt", "Git"],
-				website: "",
+				website: "https://www.whoweuse.com/",
 				image: "whoweuse.png"
 			},
 			{
 				name: "Pintmeisters",
 				desc: "",
 				technologies: ["HTML", "CSS", "PHP", "SQL"],
-				website: "",
+				website: "https://pintmeisters.com/",
 				image: "pintmeisters.png"
 			},
 			{
 				name: "Unsheltered Voice",
 				desc: "",
 				technologies: ["Wordpress", "PHP", "SQL"],
-				website: "",
+				website: "https://unshelteredvoice.org/",
 				image: "unsheltered-voice.png"
+			},
+			{
+				name: "Alex Eating Pancakes",
+				desc: "",
+				technologies: ["Javascript", "HTML", "CSS", "PHP"],
+				website: "https://alexeatingpancakes.com/",
+				image: "alex-eating-pancakes.png"
 			},
 			{
 				name: "Doctor OZ",
 				desc: "",
 				technologies: ["HTML", "CSS", "Javascript", "PHP"],
-				website: "",
+				website: "https://www.doctoroz.com/",
 				image: "doctor-oz.png"
 			},
 			{
 				name: "Illy",
 				desc: "",
 				technologies: ["HTML", "CSS", "Javascript", "PHP"],
-				website: "",
+				website: "https://www.illy.com/en-us/live-happilly/circolo-illy",
 				image: "circolo-illy.png"
 			},
 			{
 				name: "Herbalife",
 				desc: "",
 				technologies: ["HTML", "CSS", "Javascript", "PHP"],
-				website: "",
+				website: "https://video.herbalife.com/",
 				image: "herbalife.png"
 			},
 			{
 				name: "Barnes and Noble",
 				desc: "",
 				technologies: ["HTML", "CSS", "Javascript", "PHP"],
-				website: "",
+				website: "https://www.barnesandnoble.com/blog/category/interviews/",
 				image: "barnes-and-noble.png"
 			},
 			{
 				name: "MIT",
 				desc: "",
 				technologies: ["HTML", "CSS", "Javascript", "PHP"],
-				website: "",
+				website: "https://executive.mit.edu/",
 				image: "mit-sloan.png"
 			},
 			{
 				name: "Foremost Groups",
 				desc: "",
 				technologies: ["Javascript", "HTML", "CSS"],
-				website: "",
+				website: "http://www.foremostgroups.com/",
 				image: "foremost.png"
+			},
+			{
+				name: "Green Valley Landscaping",
+				desc: "",
+				technologies: ["Javascript", "HTML", "CSS"],
+				website: "https://greenvalleylandscapenj.com/",
+				image: "green-valley.png"
 			}
-			// {
-			// 	name: "Green Valley Landscaping",
-			// 	desc: "",
-			// 	technologies: ["Javascript", "HTML", "CSS"],
-			// 	website: "",
-			// 	image: "green-valley.png"
-			// }
 		],
 		technologies: [
 			// languages

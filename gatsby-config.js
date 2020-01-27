@@ -4,7 +4,100 @@ module.exports = {
 	siteMetadata: {
 		title: 'Dan Mathisen',
 		subTitle: 'Full-stack web application developer',
-		technologies: [
+		websites: [
+			{
+				name: "Portfolio",
+				desc: "",
+				technologies: ["Node JS", "React", "GraphQL", "Materialize CSS", "UI/UX Design"],
+				website: "",
+				image: "portfolio.png"
+			},
+			{
+				name: "MIK Fund Solutions",
+				desc: "",
+				technologies: ["C#", ".NET", "SQL", "Angular", "Kendo", "Typescript", "Less"],
+				website: "",
+				image: "mikfs.png"
+			},
+			{
+				name: "Hoboken Brewing Co",
+				desc: "",
+				technologies: ["Wordpress", "PHP", "SQL", "HTML", "CSS", "UI/UX Design"],
+				website: "",
+				image: "hoboken-brewing-co.png"
+			},
+			{
+				name: "WhoWeUse",
+				desc: "",
+				technologies: ["Node JS", "Javascript", "PHP", "MongoDB", "Sass", "Grunt", "Git"],
+				website: "",
+				image: "whoweuse.png"
+			},
+			{
+				name: "Pintmeisters",
+				desc: "",
+				technologies: ["HTML", "CSS", "PHP", "SQL"],
+				website: "",
+				image: "pintmeisters.png"
+			},
+			{
+				name: "Unsheltered Voice",
+				desc: "",
+				technologies: ["Wordpress", "PHP", "SQL"],
+				website: "",
+				image: "unsheltered-voice.png"
+			},
+			{
+				name: "Doctor OZ",
+				desc: "",
+				technologies: ["HTML", "CSS", "Javascript", "PHP"],
+				website: "",
+				image: "doctor-oz.png"
+			},
+			{
+				name: "Illy",
+				desc: "",
+				technologies: ["HTML", "CSS", "Javascript", "PHP"],
+				website: "",
+				image: "circolo-illy.png"
+			},
+			{
+				name: "Herbalife",
+				desc: "",
+				technologies: ["HTML", "CSS", "Javascript", "PHP"],
+				website: "",
+				image: "herbalife.png"
+			},
+			{
+				name: "Barnes and Noble",
+				desc: "",
+				technologies: ["HTML", "CSS", "Javascript", "PHP"],
+				website: "",
+				image: "barnes-and-noble.png"
+			},
+			{
+				name: "MIT",
+				desc: "",
+				technologies: ["HTML", "CSS", "Javascript", "PHP"],
+				website: "",
+				image: "mit-sloan.png"
+			},
+			{
+				name: "Foremost Groups",
+				desc: "",
+				technologies: ["Javascript", "HTML", "CSS"],
+				website: "",
+				image: "foremost.png"
+			}
+			// {
+			// 	name: "Green Valley Landscaping",
+			// 	desc: "",
+			// 	technologies: ["Javascript", "HTML", "CSS"],
+			// 	website: "",
+			// 	image: "green-valley.png"
+			// }
+		],
+		technologies: [,
 			// languages
 			{
 				name: "HTML",
@@ -55,9 +148,15 @@ module.exports = {
 				color: "#fff"
 			},
 			{
-				name: "Mongo DB",
+				name: "MongoDB",
 				type: "language",
 				image: "mongodb.png",
+				color: "#fff"
+			},
+			{
+				name: "GraphQL",
+				type: "language",
+				image: "graphql.png",
 				color: "#fff"
 			},
 

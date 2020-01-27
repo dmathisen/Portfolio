@@ -1,0 +1,22 @@
+.website-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.website-item.card {
+    max-width: 335px;
+    margin-right: 30px;
+}
+
+.website-item .card-image img {
+    margin: 24px auto 0;
+    max-width: 250px;
+    border: 1px solid #ddd;
+}
+
+.website-item-tech-list {
+    margin-top: 25px;
+}
+.website-item-tech-list img {
+    width: 60px;
+}

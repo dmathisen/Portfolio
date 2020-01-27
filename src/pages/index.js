@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import Quote from "../components/quote";
 import Skills from "../components/skills";
+import Websites from "../components/websites";
 
 export default () => {
 	return (
@@ -14,6 +15,7 @@ export default () => {
 
 			<Quote />
 			<Skills />
+			<Websites />
 		</Layout>
 	)
 }

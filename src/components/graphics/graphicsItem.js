@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Card, CardTitle } from "react-materialize"
+import { Col, Card } from "react-materialize"
 
 export default ({data}) => {
     const imageUrl = `/images/graphics/${data.image}`;

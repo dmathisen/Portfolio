@@ -31,7 +31,7 @@ export default () => {
 				<NavItem href="/#websites">Web Projects</NavItem>
 				<NavItem href="/#graphics">Graphic Design</NavItem>
 				<NavItem href="/#testimonials">Testimonials</NavItem>
-				<NavItem href="/#resume">Resume</NavItem>
+				<NavItem href="/dan-mathisen-resume.pdf" target="_blank">Resume</NavItem>
 				<NavItem href="/#contact">Contact</NavItem>
 			</Navbar>
 		</header>

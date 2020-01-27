@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
 }
-div.skill-item {
+
+.skill-item {
     max-width: 100px;
     box-shadow: none;
     padding: 0 5px;

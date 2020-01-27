@@ -1,23 +1,23 @@
-.card-wrapper {
+.skill-item-wrapper {
     display: flex;
     flex-wrap: wrap;
 }
-div.card {
+div.skill-item {
     max-width: 100px;
     box-shadow: none;
     padding: 0 5px;
 }
 
-.card p.card-title {
+.skill-item p.skill-item-title {
     font-size: 20px;
     text-align: center;
     margin-top: 10px;
 }
 
-.card img {
+.skill-item img {
     border: 1px solid #ddd;
     max-width: 100%;
 }
-.card:hover img {
+.skill-item:hover img {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 }

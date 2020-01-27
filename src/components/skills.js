@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from "react-materialize";
 import { useStaticQuery, graphql } from "gatsby";
 
-import Card from "../components/card"
+import SkillItem from "./skill-item"
 
 export default () => {
     const data = useStaticQuery(graphql`
@@ -29,19 +29,19 @@ export default () => {
             <Row>
                 <Col s={12} l={6}>
                     <h5>Languages</h5>
-                    <div className="card-wrapper">
-                        { languages.map(item => <Card data={ item } />) }
+                    <div className="skill-item-wrapper">
+                        { languages.map(item => <SkillItem data={ item } />) }
                     </div>
 
                     <h5>Design</h5>
-                    <div className="card-wrapper">
-                        { others.map(item => <Card data={ item } />) }
+                    <div className="skill-item-wrapper">
+                        { others.map(item => <SkillItem data={ item } />) }
                     </div>
                 </Col>
                 <Col s={12} l={6}>
                     <h5>Libraries / Other</h5>
-                    <div className="card-wrapper">
-                        { libraries.map(item => <Card data={ item } />) }
+                    <div className="skill-item-wrapper">
+                        { libraries.map(item => <SkillItem data={ item } />) }
                     </div>
                 </Col>
             </Row>

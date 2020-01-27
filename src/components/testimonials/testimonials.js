@@ -13,6 +13,7 @@ export default () => {
 					testimonials {
 						personName
 						personTitle
+						personCompany
 						personImage
                         content
                     }
@@ -28,7 +29,7 @@ export default () => {
             <Row>
                 <Col s={12} style={{marginTop: 50 + 'px'}}>
                     <h4>Testimonials</h4>
-					<div class="testimonials-wrapper">
+					<div className="testimonials-wrapper">
 						{ testimonials.map(item => <TestimonialItem data={ item } key={ item.personImage } />) }
 					</div>
                 </Col>

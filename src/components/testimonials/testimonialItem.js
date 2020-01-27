@@ -11,6 +11,7 @@ export default ({data}) => {
 			<h5>{data.personName}</h5>
 			
 			<p>{data.personTitle}</p>
+			<p><strong>{data.personCompany}</strong></p>
 
 			<blockquote className="testimonial">
 				{data.content}

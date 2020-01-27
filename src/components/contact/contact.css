@@ -1,0 +1,20 @@
+.contact-wrapper {
+	padding: 24px;
+}
+
+.contact-item {
+	display: inline-block;
+	margin: 10px;
+}
+
+.contact-item img {
+	width: 100px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	padding: 10px;
+}
+
+.contact-item p {
+	margin: 0;
+	text-align: center;
+}

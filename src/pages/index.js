@@ -2,10 +2,10 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import Layout from "../components/layout";
-import Quote from "../components/quote";
-import Skills from "../components/skills";
-import Websites from "../components/websites";
-import GraphicDesign from "../components/graphics";
+import Quote from "../components/about/quote";
+import Skills from "../components/skills/skills";
+import Websites from "../components/websites/websites";
+import GraphicDesign from "../components/graphics/graphics";
 
 export default () => {
 	return (

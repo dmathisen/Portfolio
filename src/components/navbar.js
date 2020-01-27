@@ -2,8 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { Navbar, NavItem } from "react-materialize";
 
-import HeaderWaves from "./headerWaves"
-import "./header.css"
+import "./navbar.css"
 
 export default () => {
 	const data = useStaticQuery(graphql`
@@ -35,8 +34,6 @@ export default () => {
 				<NavItem href="/#resume">Resume</NavItem>
 				<NavItem href="/#contact">Contact</NavItem>
 			</Navbar>
-
-			<HeaderWaves />
 		</header>
 	)
 }

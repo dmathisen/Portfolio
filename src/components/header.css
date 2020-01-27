@@ -4,9 +4,9 @@ header {
 header nav {
 	background-color: transparent;
 	box-shadow: none;
-	height: 100px;
+	height: 150px;
 	line-height: 35px;
-	padding: 15px 25px;
+	padding: 35px 25px;
 }
 header nav .brand-logo span {
 	font-size: 1.3rem;

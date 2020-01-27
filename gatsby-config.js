@@ -97,7 +97,7 @@ module.exports = {
 			// 	image: "green-valley.png"
 			// }
 		],
-		technologies: [,
+		technologies: [
 			// languages
 			{
 				name: "HTML",

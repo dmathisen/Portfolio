@@ -3,11 +3,16 @@ header {
 }
 
 header nav {
-	background-color: transparent;
-	box-shadow: none;
+	margin: 0 auto;
+	max-width: 1300px;
 	height: 150px;
 	line-height: 35px;
-	padding: 35px 75px;
+	padding: 35px 15px;
+	background-color: transparent;
+	box-shadow: none;
+}
+header nav .brand-logo {
+	width: 70%;
 }
 header nav .brand-logo span {
 	font-size: 1.3rem;

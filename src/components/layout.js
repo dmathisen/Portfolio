@@ -1,6 +1,5 @@
 import React from "react"
 import { Helmet } from "react-helmet";
-import M from "materialize-css/dist/js/materialize.min.js";
 
 import Footer from "./footer";
 import Navbar from "./navbar";
@@ -9,6 +8,9 @@ import Waves from "./waves";
 import "./layout.css"
 
 export default ({ children }) => {
+	// handle case when these is no window/document defined (when running build)
+	const clientIsBrowser = typeof window === "object" ? true : false;
+
 	return (
 		<>
 			<Helmet>
@@ -17,8 +19,10 @@ export default ({ children }) => {
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 				<script>
 					{
-						document.addEventListener('DOMContentLoaded', function() {
-							M.Sidenav.init(document.querySelector('.sidenav'), {});
+						// initialize Materialize navbar
+						clientIsBrowser && document.addEventListener('DOMContentLoaded', function() {
+							const sidenav = document.querySelector('.sidenav');
+							sidenav.sidenav();
 						})
 					}
 				</script>

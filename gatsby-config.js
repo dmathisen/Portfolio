@@ -4,6 +4,26 @@ module.exports = {
 	siteMetadata: {
 		title: 'Dan Mathisen',
 		subTitle: 'Full-stack web application developer',
+		graphics: [
+			{
+				name: "Landscaping Flyer",
+				desc: "",
+				image: "aeration.jpg",
+				thumb: "aeration-thumb.jpg"
+			},
+			{
+				name: "MIT iGEM Flyer",
+				desc: "",
+				image: "igem.jpg",
+				thumb: "igem-thumb.jpg"
+			},
+			{
+				name: "Charity Event Flyer",
+				desc: "",
+				image: "rbari.jpg",
+				thumb: "rbari-thumb.jpg"
+			},
+		],
 		websites: [
 			{
 				name: "Portfolio",

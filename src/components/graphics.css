@@ -1,0 +1,11 @@
+.graphics-item.card .card-image {
+	padding: 25px 10px 0;
+}
+
+.graphics-item.card .card-image img {
+	width: auto;
+	max-height: 350px;
+	max-width: 100%;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+}

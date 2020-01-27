@@ -1,0 +1,19 @@
+footer {
+	color: #fff;
+	background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+}
+
+footer .row {
+	margin-bottom: 0;
+}
+
+footer p {
+	padding: 10px 0;
+}
+
+footer a {
+	color: #fff;
+}
+footer a:hover {
+	text-decoration: underline;
+}

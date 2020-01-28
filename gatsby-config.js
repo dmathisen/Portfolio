@@ -63,6 +63,13 @@ module.exports = {
 				image: "mikfs.png"
 			},
 			{
+				name: "Doctor OZ",
+				desc: "",
+				technologies: ["HTML", "CSS", "Javascript", "PHP"],
+				website: "https://www.doctoroz.com/",
+				image: "doctor-oz.png"
+			},
+			{
 				name: "Hoboken Brewing Co",
 				desc: "",
 				technologies: ["Wordpress", "PHP", "SQL", "HTML", "CSS", "UI/UX Design"],
@@ -82,27 +89,6 @@ module.exports = {
 				technologies: ["HTML", "CSS", "PHP", "SQL"],
 				website: "https://pintmeisters.com/",
 				image: "pintmeisters.png"
-			},
-			{
-				name: "Unsheltered Voice",
-				desc: "",
-				technologies: ["Wordpress", "PHP", "SQL"],
-				website: "https://unshelteredvoice.org/",
-				image: "unsheltered-voice.png"
-			},
-			{
-				name: "Alex Eating Pancakes",
-				desc: "",
-				technologies: ["Javascript", "HTML", "CSS", "PHP"],
-				website: "https://alexeatingpancakes.com/",
-				image: "alex-eating-pancakes.png"
-			},
-			{
-				name: "Doctor OZ",
-				desc: "",
-				technologies: ["HTML", "CSS", "Javascript", "PHP"],
-				website: "https://www.doctoroz.com/",
-				image: "doctor-oz.png"
 			},
 			{
 				name: "Illy",
@@ -133,18 +119,18 @@ module.exports = {
 				image: "mit-sloan.png"
 			},
 			{
-				name: "Foremost Groups",
+				name: "Unsheltered Voice",
 				desc: "",
-				technologies: ["Javascript", "HTML", "CSS"],
-				website: "http://www.foremostgroups.com/",
-				image: "foremost.png"
+				technologies: ["Wordpress", "PHP", "SQL"],
+				website: "https://unshelteredvoice.org/",
+				image: "unsheltered-voice.png"
 			},
 			{
-				name: "Green Valley Landscaping",
+				name: "Alex Eating Pancakes",
 				desc: "",
-				technologies: ["Javascript", "HTML", "CSS"],
-				website: "https://greenvalleylandscapenj.com/",
-				image: "green-valley.png"
+				technologies: ["Javascript", "HTML", "CSS", "PHP"],
+				website: "https://alexeatingpancakes.com/",
+				image: "alex-eating-pancakes.png"
 			}
 		],
 		technologies: [

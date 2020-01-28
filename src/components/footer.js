@@ -22,10 +22,10 @@ export default () => {
 		<footer>
 			<Container>
 				<Row>
-					<Col s={6}>
+					<Col s={7}>
 						<p>Copyright &copy; { currentYear } { data.site.siteMetadata.title }</p>
 					</Col>
-					<Col s={6} className="right-align">
+					<Col s={5} className="right-align">
 						<p><a href="/dan-mathisen-resume.pdf" target="_blank">Download Resume (PDF)</a></p>
 					</Col>
 				</Row>

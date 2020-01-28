@@ -16,7 +16,6 @@ export default ({website, technologies}) => {
             <p>{website.desc}</p>
 
             <div className="website-item-tech-list">
-                <p><strong>Built using:</strong></p>
                 {
                     website.technologies.map(technology => {
                         const techDetails = technologies.find(tech => tech.name === technology);

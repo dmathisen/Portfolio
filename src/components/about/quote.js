@@ -5,7 +5,8 @@ export default () => {
     return(
         <blockquote className="quote">
             <div>
-                As a web designer &amp; developer, I build elegant websites and create eye-catching designs that provide for a simple and intuitive user experience
+                As a web application developer, I create elegant and eye-catching interfaces with a
+                focus on simplicity and accessibility that allows for an incredible user experience
             </div>
         </blockquote>
     )

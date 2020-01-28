@@ -5,7 +5,7 @@ export default ({data}) => {
 	const imageUrl = `/images/testimonials/${data.personImage}`;
 
 	return (
-		<Col className="testimonial-item center" s={12} m={4}>
+		<Col className="testimonial-item center" l={4}>
 			<img src={imageUrl} alt={data.personName} />
 			
 			<h5>{data.personName}</h5>

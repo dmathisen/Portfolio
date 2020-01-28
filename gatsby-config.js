@@ -58,7 +58,7 @@ module.exports = {
 			{
 				name: "MIK Fund Solutions",
 				desc: "",
-				technologies: ["C#", ".NET", "SQL", "Angular", "Kendo", "Typescript", "Less"],
+				technologies: ["C#", ".NET", "SQL", "Angular", "Kendo", "Typescript", "Less", "UI/UX Design"],
 				website: "http://www.mikfs.com/",
 				image: "mikfs.png"
 			},
@@ -79,14 +79,14 @@ module.exports = {
 			{
 				name: "WhoWeUse",
 				desc: "",
-				technologies: ["Node JS", "Javascript", "PHP", "MongoDB", "Sass", "Grunt", "Git"],
+				technologies: ["Node JS", "Javascript", "PHP", "MongoDB", "Sass", "Grunt", "Git", "UI/UX Design"],
 				website: "https://www.whoweuse.com/",
 				image: "whoweuse.png"
 			},
 			{
 				name: "Pintmeisters",
 				desc: "",
-				technologies: ["HTML", "CSS", "PHP", "SQL"],
+				technologies: ["HTML", "CSS", "PHP", "SQL", "UI/UX Design"],
 				website: "https://pintmeisters.com/",
 				image: "pintmeisters.png"
 			},
@@ -121,14 +121,14 @@ module.exports = {
 			{
 				name: "Unsheltered Voice",
 				desc: "",
-				technologies: ["Wordpress", "PHP", "SQL"],
+				technologies: ["Wordpress", "PHP", "SQL", "UI/UX Design"],
 				website: "https://unshelteredvoice.org/",
 				image: "unsheltered-voice.png"
 			},
 			{
 				name: "Alex Eating Pancakes",
 				desc: "",
-				technologies: ["Javascript", "HTML", "CSS", "PHP"],
+				technologies: ["Javascript", "HTML", "CSS", "PHP", "UI/UX Design"],
 				website: "https://alexeatingpancakes.com/",
 				image: "alex-eating-pancakes.png"
 			}
@@ -306,13 +306,13 @@ module.exports = {
 				type: "other",
 				image: "adobe-illustrator.png",
 				color: "#FE7903"
-			},
-			{
-				name: "Adobe InDesign",
-				type: "other",
-				image: "adobe-indesign.png",
-				color: "#FF3C91"
 			}
+			// {
+			// 	name: "Adobe InDesign",
+			// 	type: "other",
+			// 	image: "adobe-indesign.png",
+			// 	color: "#FF3C91"
+			// }
 		]
 	}
 }

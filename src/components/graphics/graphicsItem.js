@@ -11,7 +11,7 @@ export default ({data}) => {
 					<a href={imageUrl}><img src={imageUrl} alt={data.name} /></a>
 				</div>
 				<h5>{data.name}</h5>
-				<p>Here is the standard card with an image thumbnail.</p>
+				<p>{data.desc}</p>
 			</Card>
 		</Col>
     )

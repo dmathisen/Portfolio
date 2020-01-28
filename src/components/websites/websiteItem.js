@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardTitle } from "react-materialize"
+import { Card, CardTitle, Button } from "react-materialize"
 
 export default ({website, technologies}) => {
     const imageUrl = `/images/websites/${website.image}`;
@@ -9,10 +9,12 @@ export default ({website, technologies}) => {
             <Card
                 className="website-item"
                 header={<CardTitle image={imageUrl}></CardTitle>}
-                actions={[ <a href={website.website} target="_blank" rel="noopener noreferrer" key="1">Visit Website</a> ]}
+                actions={[
+                    <Button small href={website.website} node="a" waves="light" target="_blank">Visit Website</Button>
+                ]}
             >
                 <h5>{website.name}</h5>
-                <p>Here is the standard card with an image thumbnail.</p>
+                <p>{website.desc}</p>
 
                 <div className="website-item-tech-list">
                     <p><strong>Built using:</strong></p>

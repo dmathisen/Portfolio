@@ -1,7 +1,12 @@
 blockquote.quote {
-    max-width: 800px;
-    margin: 100px auto;
     font-size: 1.5rem;
     color: #93979c;
-    border-color: #2D6FBC;
+    border: none;
+}
+
+blockquote.quote div {
+    max-width: 800px;
+    margin: 100px auto;
+    border-left: 5px solid #2D6FBC;
+    padding: 0 10px;
 }

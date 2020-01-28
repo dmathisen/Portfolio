@@ -11,12 +11,22 @@ header nav {
 	background-color: transparent;
 	box-shadow: none;
 }
+
+header nav .sidenav-trigger {
+	margin: 0;
+}
+header nav .sidenav li {
+	border-bottom: 1px solid #eee;
+}
+
 header nav .brand-logo {
 	width: 70%;
 }
+
 header nav .brand-logo span {
 	font-size: 1.3rem;
 }
+
 header nav ul a {
 	display: inline;
 	padding: 15px;

@@ -3,7 +3,7 @@ module.exports = {
 	
 	siteMetadata: {
 		title: 'Dan Mathisen',
-		subTitle: 'Full-stack web application developer',
+		subTitle: 'Full-stack web app developer',
 		testimonials: [
 			{
 				personName: "Cherie Kirkland, PMP",

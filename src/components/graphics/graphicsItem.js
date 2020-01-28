@@ -1,15 +1,22 @@
 import React from "react";
 import { Card } from "react-materialize"
 
-export default ({data}) => {
-    const imageUrl = `/images/graphics/${data.image}`;
+export default ({data, index, setIsOpen, setPhotoIndex}) => {
+	const imageUrl = `/images/graphics/${data.image}`;
+	
+	const handleClick = e => {
+		e.preventDefault();
+		setIsOpen(true);
+		setPhotoIndex(index);
+	}
 
     return (
-		<Card className="graphics-item">
+		<Card className="graphics-item center">
 			<div className="card-image">
-				<a href={imageUrl}><img src={imageUrl} alt={data.name} /></a>
+				<a href="/" onClick={handleClick}><img src={imageUrl} alt={data.name} /></a>
 			</div>
 			<h5>{data.name}</h5>
+			<p><em>{data.client}</em></p>
 			<p>{data.desc}</p>
 		</Card>
     )

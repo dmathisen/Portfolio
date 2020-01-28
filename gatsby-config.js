@@ -30,18 +30,21 @@ module.exports = {
 		graphics: [
 			{
 				name: "Landscaping Flyer",
+				client: "Green Valley Landscaping",
 				desc: "",
 				image: "aeration.jpg",
 				thumb: "aeration-thumb.jpg"
 			},
 			{
 				name: "MIT iGEM Flyer",
+				client: "International Genetically Engineered Machine (iGEM) & MIT",
 				desc: "",
 				image: "igem.jpg",
 				thumb: "igem-thumb.jpg"
 			},
 			{
 				name: "Charity Event Flyer",
+				client: "Ramapo-Bergen Animal Refuge",
 				desc: "",
 				image: "rbari.jpg",
 				thumb: "rbari-thumb.jpg"

@@ -27,7 +27,9 @@ export default () => {
             <Row>
                 <Col s={12} style={{marginTop: 50 + 'px'}}>
                     <h4>Graphic Design</h4>
-					{ graphics.map(item => <GraphicsItem data={ item } key={ item.name } />) }
+                    <div className="graphics-wrapper">
+                        { graphics.map(item => <GraphicsItem data={ item } key={ item.name } />) }
+                    </div>
                 </Col>
             </Row>
         </Container>

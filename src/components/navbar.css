@@ -19,6 +19,9 @@ header nav .sidenav li {
 	border-bottom: 1px solid #eee;
 }
 
+header nav .brand-logo {
+	min-width: 16.8rem;
+}
 header nav .brand-logo span {
 	font-size: 1.3rem;
 }

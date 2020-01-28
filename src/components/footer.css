@@ -11,6 +11,9 @@ footer .row {
 footer p {
 	padding: 10px 0;
 }
+footer p span {
+	white-space: nowrap;
+}
 
 footer a {
 	color: #fff;

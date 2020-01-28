@@ -23,7 +23,7 @@ export default () => {
 			<Container>
 				<Row>
 					<Col s={7}>
-						<p>Copyright &copy; { currentYear } { data.site.siteMetadata.title }</p>
+						<p>Copyright &copy; { currentYear } <span>{ data.site.siteMetadata.title }</span></p>
 					</Col>
 					<Col s={5} className="right-align">
 						<p><a href="/dan-mathisen-resume.pdf" target="_blank">Download Resume (PDF)</a></p>

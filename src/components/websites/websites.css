@@ -23,12 +23,6 @@
 .website-item.card .card-content {
 	padding: 0 24px 70px; /* 70px for footer */
 }
-.website-item.card .card-content .website-item-tech-list {
-    margin-top: 25px;
-}
-.website-item.card .card-content .website-item-tech-list img {
-    width: 60px;
-}
 
 .website-item.card .card-action {
 	position: absolute;

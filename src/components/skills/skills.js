@@ -13,7 +13,8 @@ export default () => {
 					technologies {
 						name
 						type
-						image
+                        image
+                        color
 					}
 				}
 			}

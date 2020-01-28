@@ -139,61 +139,61 @@ module.exports = {
 				name: "HTML",
 				type: "language",
 				image: "html5.png",
-				color: "#fff"
+				color: "#E34D26"
 			},
 			{
 				name: "CSS",
 				type: "language",
 				image: "css3.png",
-				color: "#fff"
+				color: "#0170B9"
 			},
 			{
 				name: "Javascript",
 				type: "language",
 				image: "javascript.png",
-				color: "#fff"
+				color: "#E9CA32"
 			},
 			{
 				name: "Typescript",
 				type: "language",
 				image: "typescript.png",
-				color: "#fff"
+				color: "#007ACC"
 			},
 			{
 				name: "PHP",
 				type: "language",
 				image: "php.png",
-				color: "#fff"
+				color: "#8993BD"
 			},
 			{
 				name: "C#",
 				type: "language",
 				image: "c-sharp.png",
-				color: "#fff"
+				color: "#9A4993"
 			},
 			{
 				name: ".NET",
 				type: "language",
 				image: "dot-net.png",
-				color: "#fff"
+				color: "#672A7A"
 			},
 			{
 				name: "SQL",
 				type: "language",
 				image: "mysql.png",
-				color: "#fff"
+				color: "#F9AA47"
 			},
 			{
 				name: "MongoDB",
 				type: "language",
 				image: "mongodb.png",
-				color: "#fff"
+				color: "#57AA50"
 			},
 			{
 				name: "GraphQL",
 				type: "language",
 				image: "graphql.png",
-				color: "#fff"
+				color: "#E12B98"
 			},
 
 			// libraries
@@ -201,85 +201,85 @@ module.exports = {
 				name: "Node JS",
 				type: "library",
 				image: "nodejs.png",
-				color: "#fff"
+				color: "#64A459"
 			},
 			{
 				name: "React",
 				type: "library",
 				image: "react.png",
-				color: "#fff"
+				color: "#00D8FF"
 			},
 			{
 				name: "Redux",
 				type: "library",
 				image: "redux.png",
-				color: "#fff"
+				color: "#764ABB"
 			},
 			{
 				name: "Angular",
 				type: "library",
 				image: "angular.png",
-				color: "#fff"
+				color: "#DF2E31"
 			},
 			{
 				name: "Webpack",
 				type: "library",
 				image: "webpack.png",
-				color: "#fff"
+				color: "#1C78C0"
 			},
 			{
 				name: "Git",
 				type: "library",
 				image: "git.png",
-				color: "#fff"
+				color: "#EF4F33"
 			},
 			{
 				name: "Wordpress",
 				type: "library",
 				image: "wordpress.png",
-				color: "#fff"
+				color: "#32373C"
 			},
 			{
 				name: "Gulp",
 				type: "library",
 				image: "gulp.png",
-				color: "#fff"
+				color: "#D34A47"
 			},
 			{
 				name: "Grunt",
 				type: "library",
 				image: "grunt.png",
-				color: "#fff"
+				color: "#FBA919"
 			},
 			{
 				name: "Kendo",
 				type: "library",
 				image: "progress-kendo.png",
-				color: "#fff"
+				color: "#5CE400"
 			},
 			{
 				name: "Sass",
 				type: "library",
 				image: "sass.png",
-				color: "#fff"
+				color: "#CD6799"
 			},
 			{
 				name: "Less",
 				type: "library",
 				image: "less.png",
-				color: "#fff"
+				color: "#1E416F"
 			},
 			{
 				name: "Bootstrap CSS",
 				type: "library",
 				image: "bootstrap.png",
-				color: "#fff"
+				color: "#563D7C"
 			},
 			{
 				name: "Materialize CSS",
 				type: "library",
 				image: "materialize.png",
-				color: "#fff"
+				color: "#EB7077"
 			},
 
 			// other
@@ -287,31 +287,31 @@ module.exports = {
 				name: "UI/UX Design",
 				type: "other",
 				image: "ui-ux.png",
-				color: "#fff"
+				color: "#EB5E03"
 			},
 			{
 				name: "Responsive Design",
 				type: "other",
 				image: "responsive-design.png",
-				color: "#fff"
+				color: "#32373C"
 			},
 			{
 				name: "Adobe Photoshop",
 				type: "other",
 				image: "adobe-photoshop.png",
-				color: "#fff"
+				color: "#5BC3F6"
 			},
 			{
 				name: "Adobe Illustrator",
 				type: "other",
 				image: "adobe-illustrator.png",
-				color: "#fff"
+				color: "#FE7903"
 			},
 			{
 				name: "Adobe InDesign",
 				type: "other",
 				image: "adobe-indesign.png",
-				color: "#fff"
+				color: "#FF3C91"
 			}
 		]
 	}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Button, Icon, Preloader } from 'react-materialize';
-import M from 'materialize-css/dist/js/materialize.min.js';
+import M from 'materialize-css';
 
 export default () => {
 	const [ emailIsSending, setEmailIsSending ] = useState(false);

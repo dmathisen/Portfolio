@@ -36,19 +36,19 @@ export default () => {
 		<form onSubmit={sendEmail} id="emailForm">
 			<div className="input-field col">
 				<i className="material-icons prefix">person</i>
-				<input type="text" id="name" name="name" />
+				<input type="text" id="name" name="name" required />
 				<label htmlFor="name">Your name</label>
 			</div>
 
 			<div className="input-field col">
 				<i className="material-icons prefix">email</i>
-				<input className="validate" type="email" id="email" name="email" />
+				<input className="validate" type="email" id="email" name="email" required />
 				<label htmlFor="email">Your email</label>
 			</div>
 			
 			<div className="input-field col">
 				<i className="material-icons prefix">message</i>
-				<textarea id="message" name="message" className="materialize-textarea"></textarea>
+				<textarea id="message" name="message" className="materialize-textarea" required></textarea>
 				<label htmlFor="message">Your message</label>
 			</div>
 

@@ -4,6 +4,28 @@ module.exports = {
 	siteMetadata: {
 		title: 'Dan Mathisen',
 		subTitle: 'Full-stack web app developer',
+		contact: [
+			{
+				name: "LinkedIn",
+				url: "https://www.linkedin.com/in/danmathisen",
+				image: "linkedin.png"
+			},
+			{
+				name: "GitHub",
+				url: "https://github.com/dmathisen",
+				image: "github.png"
+			},
+			{
+				name: "StackOverflow",
+				url: "https://stackoverflow.com/users/1308734/dmathisen",
+				image: "stack-overflow.png"
+			},
+			{
+				name: "Twitter",
+				url: "https://twitter.com/dmathisen36",
+				image: "twitter.png"
+			}
+		],
 		testimonials: [
 			{
 				personName: "Cherie Kirkland, PMP",

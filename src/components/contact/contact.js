@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { useStaticQuery, graphql } from "gatsby";
 import { Container, Row, Col, Button, Icon, Preloader } from 'react-materialize';
-import M from 'materialize-css/dist/js/materialize';
-
+import M from 'materialize-css/dist/js/materialize.min.js';
 import './contact.css'
 
 export default() => {

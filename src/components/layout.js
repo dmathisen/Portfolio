@@ -16,7 +16,7 @@ export default ({ children }) => {
 				<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
 			</Helmet>
 
-			<header>
+			<header id="top">
 				<Navbar />
 				<Waves />
 			</header>

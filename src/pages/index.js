@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { Button, Icon } from 'react-materialize';
 
 import Layout from "../components/layout";
 import Quote from "../components/about/quote";
@@ -22,6 +23,17 @@ export default () => {
 			<GraphicDesign />
 			<Testimonials />
 			<Contact />
+
+			<Button
+				floating
+				className="blue-grey"
+				node="a"
+				waves="light"
+				icon={<Icon>vertical_align_top</Icon>}
+				style={{ position: 'fixed', bottom: 30, right: 30 }}
+				href="/#top"
+				title="Go to top"
+			/>
 		</Layout>
 	)
 }

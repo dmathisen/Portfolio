@@ -80,7 +80,7 @@ export default() => {
 						<div className="input-field col">
 							<i className="material-icons prefix">email</i>
 							<input className="validate" type="email" id="email" name="email" />
-							<label htmlFor="email">Email</label>
+							<label htmlFor="email">Your email</label>
 						</div>
 						
 						<div className="input-field col">

@@ -41,19 +41,19 @@
 }
 
 #toast-container {
+	width: 100%;
+	max-width: 100%;
 	top: auto;
-	right: calc(50% - 100px);
-	bottom: 50px;
+	right: auto;
+	bottom: 0;
 }
 #toast-container .toast {
-	text-align: center;
+	justify-content: center;
 	background-color: #26a69a;
 }
 #toast-container .toast.fail {
 	background-color: #de5252;
 }
-
-
 
 #contact form button {
 	background-color: #06a3c0;

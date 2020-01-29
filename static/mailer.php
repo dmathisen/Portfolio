@@ -34,7 +34,7 @@
 
 	if($name != false && $email != false && $message != false)
 	{
-		$to = "dan.mathisen1@gmail.com";
+		$to = "dan@danmathisen.com";
 		$subject = "Message from danmathisen.com";
 		$msg = "From: $name ($email)\n\n$message";
 

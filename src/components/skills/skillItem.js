@@ -6,7 +6,7 @@ export default ({data}) => {
 
     return (
         <div className="skill-item">
-            <img src={imageUrl} alt={data.name} style={{borderBottom: borderBottom}} />
+            <img src={imageUrl} alt={data.name} style={{borderBottom: borderBottom}} width="88" height="88" />
             <p className="skill-item-title">{data.name}</p>
         </div>
     )

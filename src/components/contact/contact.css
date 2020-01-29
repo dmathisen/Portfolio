@@ -42,9 +42,9 @@
 
 #toast-container {
 	width: 100%;
-	max-width: 100%;
-	top: auto;
-	right: auto;
+	max-width: 100% !important;
+	top: auto !important;
+	right: auto !important;
 	bottom: 0;
 }
 #toast-container .toast {

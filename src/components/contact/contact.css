@@ -1,10 +1,32 @@
+#contact h5 {
+	margin-top: 50px;
+}
+
+#contact form {
+	margin: 0 auto;
+	max-width: 800px;
+}
+#contact form .input-field {
+	float: none;
+	margin-top: 2rem;
+}
+#contact form button,
+#contact form .preloader-wrapper {
+	float: left;
+	margin-left: 55px;
+}
+#contact form .preloader-wrapper {
+	width: 36px;
+	height: 36px;
+}
+
 .contact-item {
 	display: inline-block;
 	margin: 10px;
 }
 
 .contact-item img {
-	width: 100px;
+	width: 80px;
 	border: 1px solid #ddd;
 	background-color: #fff;
 	padding: 10px;
@@ -16,4 +38,17 @@
 .contact-item p {
 	margin: 0;
 	text-align: center;
+}
+
+#toast-container {
+	top: auto;
+	right: calc(50% - 100px);
+	bottom: 50px;
+}
+#toast-container .toast {
+	text-align: center;
+	background-color: #26a69a;
+}
+#toast-container .toast.fail {
+	background-color: #de5252;
 }

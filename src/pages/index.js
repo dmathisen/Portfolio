@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Button, Icon } from 'react-materialize';
 
 import Layout from "../components/layout";
 import Quote from "../components/about/quote";
@@ -9,6 +8,7 @@ import Websites from "../components/websites/websites";
 import GraphicDesign from "../components/graphics/graphics";
 import Testimonials from "../components/testimonials/testimonials"
 import Contact from "../components/contact/contact"
+import BackToTopBtn from "../components/backToTopBtn"
 
 export default () => {
 	return (
@@ -23,17 +23,7 @@ export default () => {
 			<GraphicDesign />
 			<Testimonials />
 			<Contact />
-
-			<Button
-				floating
-				className="blue-grey"
-				node="a"
-				waves="light"
-				icon={<Icon>vertical_align_top</Icon>}
-				style={{ position: 'fixed', bottom: 30, right: 30 }}
-				href="/#top"
-				title="Go to top"
-			/>
+			<BackToTopBtn />
 		</Layout>
 	)
 }

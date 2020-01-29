@@ -1,5 +1,4 @@
 <?php
-
 	header('Content-Type: application/json');
 
 	function spamCheck($field)
@@ -23,7 +22,7 @@
 			mail($toEmail, $subject, $message, $headers);
 			echo "success";
 		} else {
-			echo "fail";
+			echo "Send failed. Something went wrong :(";
 		}
 		exit;
 	}
@@ -32,8 +31,10 @@
 	$email = isset($_POST['email']) ? $_POST['email'] : false;
 	$message = isset($_POST['message']) ? $_POST['message'] : false;
 
-	if($name != false && $email != false && $message != false)
-	{
+	if ($name == false || $email == false || $message == false) {
+		echo "Name, email and message are required";
+		exit;
+	} else {
 		$to = "dan@danmathisen.com";
 		$subject = "Message from danmathisen.com";
 		$msg = "From: $name ($email)\n\n$message";

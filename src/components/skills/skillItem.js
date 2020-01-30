@@ -1,7 +1,7 @@
 import React from "react";
 
 export default ({data}) => {
-    const imageUrl = `/images/technologies/${data.image}`;
+    const imageUrl = `/images/technologies/resized/${data.image}`;
     const borderBottom = `2px solid ${data.color}`;
 
     return (

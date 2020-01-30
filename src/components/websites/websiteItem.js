@@ -37,7 +37,7 @@ export default ({website, technologies}) => {
             <h5>{website.name}</h5>
             {/* <p>{website.desc}</p> */}
 
-			<div class="tech-chips">
+			<div className="tech-chips">
 			{
                 website.technologies.map(technology => {
 					const techDetails = technologies.find(tech => tech.name === technology);

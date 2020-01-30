@@ -74,9 +74,9 @@ module.exports = {
 		],
 		websites: [
 			{
-				name: "Portfolio",
+				name: "My Portfolio",
 				desc: "",
-				technologies: ["Node JS", "React", "GraphQL", "Materialize CSS", "UI/UX Design"],
+				technologies: ["Node JS", "React", "GraphQL", "Webpack", "Materialize CSS", "UI/UX Design"],
 				website: "https://danmathisen.com/",
 				image: "portfolio.png"
 			},
@@ -90,9 +90,16 @@ module.exports = {
 			{
 				name: "Doctor OZ",
 				desc: "",
-				technologies: ["HTML", "CSS", "Javascript", "PHP"],
+				technologies: ["HTML", "CSS", "Javascript", "PHP", "Grunt"],
 				website: "https://www.doctoroz.com/",
 				image: "doctor-oz.png"
+			},
+			{
+				name: "MIT",
+				desc: "",
+				technologies: ["HTML", "CSS", "Javascript", "PHP", "Grunt"],
+				website: "https://executive.mit.edu/",
+				image: "mit-sloan.png"
 			},
 			{
 				name: "Hoboken Brewing Co",
@@ -104,7 +111,7 @@ module.exports = {
 			{
 				name: "WhoWeUse",
 				desc: "",
-				technologies: ["Node JS", "Javascript", "PHP", "MongoDB", "Sass", "Grunt", "Git", "UI/UX Design"],
+				technologies: ["Node JS", "Javascript", "PHP", "MongoDB", "Sass", "Gulp", "UI/UX Design"],
 				website: "https://www.whoweuse.com/",
 				image: "whoweuse.png"
 			},
@@ -116,32 +123,25 @@ module.exports = {
 				image: "pintmeisters.png"
 			},
 			{
+				name: "Barnes and Noble",
+				desc: "",
+				technologies: ["HTML", "CSS", "Javascript", "PHP", "Grunt"],
+				website: "https://www.barnesandnoble.com/blog/category/interviews/",
+				image: "barnes-and-noble.png"
+			},
+			{
 				name: "Illy",
 				desc: "",
-				technologies: ["HTML", "CSS", "Javascript", "PHP"],
+				technologies: ["HTML", "CSS", "Javascript", "PHP", "Grunt"],
 				website: "https://www.illy.com/en-us/live-happilly/circolo-illy",
 				image: "circolo-illy.png"
 			},
 			{
 				name: "Herbalife",
 				desc: "",
-				technologies: ["HTML", "CSS", "Javascript", "PHP"],
+				technologies: ["HTML", "CSS", "Javascript", "PHP", "Grunt"],
 				website: "https://video.herbalife.com/",
 				image: "herbalife.png"
-			},
-			{
-				name: "Barnes and Noble",
-				desc: "",
-				technologies: ["HTML", "CSS", "Javascript", "PHP"],
-				website: "https://www.barnesandnoble.com/blog/category/interviews/",
-				image: "barnes-and-noble.png"
-			},
-			{
-				name: "MIT",
-				desc: "",
-				technologies: ["HTML", "CSS", "Javascript", "PHP"],
-				website: "https://executive.mit.edu/",
-				image: "mit-sloan.png"
 			},
 			{
 				name: "Unsheltered Voice",

@@ -21,7 +21,11 @@
 }
 
 .website-item.card .card-content {
-	padding: 0 24px 70px; /* 70px for footer */
+	padding: 5px 24px 70px; /* 70px for footer */
+}
+
+.website-item.card .tech-chips {
+    padding: 10px 0;
 }
 
 .website-item.card .card-action {

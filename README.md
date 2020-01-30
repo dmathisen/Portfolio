@@ -1,6 +1,6 @@
 # Portfolio
 
-Portfolio website written in React + Gatsby
+Portfolio website written in React + Gatsby using GraphQL data fetching
 
 
 ### Installation

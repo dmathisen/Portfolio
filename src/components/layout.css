@@ -1,17 +1,17 @@
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-	background-color: rgb(246, 246, 246);
+  background-color: rgb(246, 246, 246);
 }
 
 a.btn-back-to-top {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	opacity: 0.5;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.5;
 }
 a.btn-back-to-top:hover {
-	opacity: 1;
+  opacity: 1;
 }

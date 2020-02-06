@@ -1,39 +1,39 @@
 import React from "react";
-import { Container, Row, Col } from "react-materialize"
+import { Container, Row, Col } from "react-materialize";
 import { useStaticQuery, graphql } from "gatsby";
 
-import TestimonialItem from "./testimonialItem"
-import "./testimonials.css"
+import TestimonialItem from "./testimonialItem";
+import "./testimonials.css";
 
 export default () => {
-    const data = useStaticQuery(graphql`
-		query {
-			site {
-				siteMetadata {
-					testimonials {
-						personName
-						personTitle
-						personCompany
-						personImage
-                        content
-                    }
-				}
-			}
-		}
-	`);
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          testimonials {
+            personName
+            personTitle
+            personCompany
+            personImage
+            content
+          }
+        }
+      }
+    }
+  `);
 
-	const testimonials = data.site.siteMetadata.testimonials;
+  const testimonials = data.site.siteMetadata.testimonials;
 
-	return (
-		<Container id="testimonials">
-            <Row>
-                <Col s={12} style={{marginTop: 50 + 'px'}}>
-                    <h4>Testimonials</h4>
-					<div className="testimonials-wrapper">
-						{ testimonials.map(item => <TestimonialItem data={ item } key={ item.personImage } />) }
-					</div>
-                </Col>
-            </Row>
-        </Container>
-	)
-}
+  return (
+    <Container id="testimonials">
+      <Row>
+        <Col s={12} style={{ marginTop: 50 + "px" }}>
+          <h4>Testimonials</h4>
+          <div className="testimonials-wrapper">
+            { testimonials.map(item => <TestimonialItem data={item} key={item.personImage} />) }
+          </div>
+        </Col>
+      </Row>
+    </Container>
+  );
+};

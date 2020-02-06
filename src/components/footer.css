@@ -1,33 +1,33 @@
 footer {
-	margin-top: 40px;
-	padding: 10px 0;
-	color: #fff;
-	background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+  margin-top: 40px;
+  padding: 10px 0;
+  color: #fff;
+  background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
 }
 
 footer .row {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 footer p span {
-	white-space: nowrap;
+  white-space: nowrap;
 }
 
 footer a {
-	color: #fff;
+  color: #fff;
 }
 footer a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 footer .resume-link {
-	text-align: right;
+  text-align: right;
 }
 @media (max-width: 600px) {
-    footer .resume-link {
-        text-align: left;
-	}
-	footer p {
-		margin: 7px 0;
-	}
+  footer .resume-link {
+    text-align: left;
+  }
+  footer p {
+    margin: 7px 0;
+  }
 }

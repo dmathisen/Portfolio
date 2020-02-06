@@ -1,41 +1,41 @@
 .website-wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: auto;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }
 @media (max-width: 1300px) {
-    .website-wrapper {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .website-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (max-width: 680px) {
-    .website-wrapper {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .website-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .website-item.card .card-image {
-	border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .website-item.card .card-content {
-	padding: 5px 24px 70px; /* 70px for footer */
+  padding: 5px 24px 70px; /* 70px for footer */
 }
 
 .website-item.card .tech-chips {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .website-item.card .card-action {
-	position: absolute;
-	width: 100%;
-	bottom: 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 .website-item.card .card-action a {
-	background-color: #06a3c0;
+  background-color: #06a3c0;
 }
 .website-item.card .card-action a:hover {
-	background-color: #1196af;
+  background-color: #1196af;
 }

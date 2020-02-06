@@ -4,10 +4,8 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
     // ignore scripts that use browser properties (window/document/etc)
     actions.setWebpackConfig({
       module: {
-        rules: [
-          { test: /materialize-css/, use: loaders.null() }
-        ]
+        rules: [{ test: /materialize-css/, use: loaders.null() }]
       }
-    })
+    });
   }
-}
+};

@@ -1,25 +1,25 @@
 .graphics-wrapper {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-auto-rows: auto;
-	grid-column-gap: 30px;
-	grid-row-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }
 @media (max-width: 800px) {
-    .graphics-wrapper {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .graphics-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (max-width: 600px) {
-    .graphics-wrapper {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .graphics-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .graphics-item.card .card-image img {
-	width: auto;
-	max-height: 300px;
-	max-width: 100%;
-	margin: 0 auto;
-	border: 1px solid #ddd;
+  width: auto;
+  max-height: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ddd;
 }

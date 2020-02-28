@@ -56,12 +56,6 @@
   background-color: #de5252;
 }
 
-#contact form button {
-  background-color: #06a3c0;
-}
-#contact form button:hover {
-  background-color: #1196af;
-}
 #contact .input-field .prefix.active {
   color: #06a3c0;
 }

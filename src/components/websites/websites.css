@@ -33,9 +33,3 @@
   width: 100%;
   bottom: 0;
 }
-.website-item.card .card-action a {
-  background-color: #06a3c0;
-}
-.website-item.card .card-action a:hover {
-  background-color: #1196af;
-}

@@ -15,3 +15,15 @@ a.btn-back-to-top {
 a.btn-back-to-top:hover {
   opacity: 1;
 }
+
+.btn,
+.btn-small,
+.btn-large {
+	background-color: #06a3c0 !important;
+}
+
+.btn:hover,
+.btn-small:hover,
+.btn-large:hover {
+	background-color: #1196af !important;
+}

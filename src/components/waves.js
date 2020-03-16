@@ -12,7 +12,7 @@ export default () => {
         <use xlinkHref="#gentle-wave" x="48" y="0" fill="rgba(246, 246, 246, 0.7)" />
         <use xlinkHref="#gentle-wave" x="48" y="3" fill="rgba(246, 246, 246, 0.5)" />
         <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(246, 246, 246, 0.3)" />
-        <use xlinkHref="#gentle-wave" x="48" y="7" fill="rgba(246, 246, 246)" />
+        <use xlinkHref="#gentle-wave" x="48" y="7" fill="rgb(246, 246, 246)" />
       </g>
     </svg>
   );

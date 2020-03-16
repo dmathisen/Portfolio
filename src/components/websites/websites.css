@@ -1,20 +1,22 @@
 .website-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: auto;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
+.website-item {
+	flex: 0 32%;
+}
+
 @media (max-width: 1300px) {
-  .website-wrapper {
-    grid-template-columns: repeat(2, 1fr);
+	.website-item {
+		flex: 0 49%;
+	}
   }
-}
-@media (max-width: 680px) {
-  .website-wrapper {
-    grid-template-columns: repeat(1, 1fr);
+  @media (max-width: 680px) {
+	.website-item {
+		flex: 0 100%;
+	}
   }
-}
 
 .website-item.card .card-image {
   border-bottom: 1px solid #ddd;

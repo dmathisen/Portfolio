@@ -13,7 +13,7 @@ export default () => {
           technologies {
             name
             type
-            image
+            slug
             color
           }
         }

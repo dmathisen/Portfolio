@@ -197,61 +197,61 @@ module.exports = {
       {
         name: "HTML",
         type: "language",
-        image: "html5.png",
+        slug: "html5",
         color: "#E34D26"
       },
       {
         name: "CSS",
         type: "language",
-        image: "css3.png",
+        slug: "css3",
         color: "#0170B9"
       },
       {
         name: "Javascript",
         type: "language",
-        image: "javascript.png",
+        slug: "javascript",
         color: "#E9CA32"
       },
       {
         name: "Typescript",
         type: "language",
-        image: "typescript.png",
+        slug: "typescript",
         color: "#007ACC"
       },
       {
         name: "PHP",
         type: "language",
-        image: "php.png",
+        slug: "php",
         color: "#8993BD"
       },
       {
         name: "C#",
         type: "language",
-        image: "c-sharp.png",
+        slug: "c-sharp",
         color: "#9A4993"
       },
       {
         name: ".NET",
         type: "language",
-        image: "dot-net.png",
+        slug: "dot-net",
         color: "#672A7A"
       },
       {
         name: "SQL",
         type: "language",
-        image: "mysql.png",
+        slug: "mysql",
         color: "#F9AA47"
       },
       {
         name: "MongoDB",
         type: "language",
-        image: "mongodb.png",
+        slug: "mongodb",
         color: "#57AA50"
       },
       {
         name: "GraphQL",
         type: "language",
-        image: "graphql.png",
+        slug: "graphql",
         color: "#E12B98"
       },
 
@@ -259,85 +259,85 @@ module.exports = {
       {
         name: "Node JS",
         type: "library",
-        image: "nodejs.png",
+        slug: "nodejs",
         color: "#64A459"
       },
       {
         name: "React",
         type: "library",
-        image: "react.png",
+        slug: "react",
         color: "#00D8FF"
       },
       {
         name: "Redux",
         type: "library",
-        image: "redux.png",
+        slug: "redux",
         color: "#764ABB"
       },
       {
         name: "Angular",
         type: "library",
-        image: "angular.png",
+        slug: "angular",
         color: "#DF2E31"
       },
       {
         name: "Webpack",
         type: "library",
-        image: "webpack.png",
+        slug: "webpack",
         color: "#1C78C0"
       },
       {
         name: "Git",
         type: "library",
-        image: "git.png",
+        slug: "git",
         color: "#EF4F33"
       },
       {
         name: "Wordpress",
         type: "library",
-        image: "wordpress.png",
+        slug: "wordpress",
         color: "#32373C"
       },
       {
         name: "Gulp",
         type: "library",
-        image: "gulp.png",
+        slug: "gulp",
         color: "#D34A47"
       },
       {
         name: "Grunt",
         type: "library",
-        image: "grunt.png",
+        slug: "grunt",
         color: "#FBA919"
       },
       {
         name: "Kendo",
         type: "library",
-        image: "progress-kendo.png",
+        slug: "progress-kendo",
         color: "#5CE400"
       },
       {
         name: "Sass",
         type: "library",
-        image: "sass.png",
+        slug: "sass",
         color: "#CD6799"
       },
       {
         name: "Less",
         type: "library",
-        image: "less.png",
+        slug: "less",
         color: "#1E416F"
       },
       {
         name: "Bootstrap CSS",
         type: "library",
-        image: "bootstrap.png",
+        slug: "bootstrap",
         color: "#563D7C"
       },
       {
         name: "Materialize CSS",
         type: "library",
-        image: "materialize.png",
+        slug: "materialize",
         color: "#EB7077"
       },
 
@@ -345,31 +345,31 @@ module.exports = {
       {
         name: "UI/UX Design",
         type: "other",
-        image: "ui-ux.png",
+        slug: "ui-ux",
         color: "#EB5E03"
       },
       {
         name: "Responsive Design",
         type: "other",
-        image: "responsive-design.png",
+        slug: "responsive-design",
         color: "#32373C"
       },
       {
         name: "Adobe Photoshop",
         type: "other",
-        image: "adobe-photoshop.png",
+        slug: "adobe-photoshop",
         color: "#5BC3F6"
       },
       {
         name: "Adobe Illustrator",
         type: "other",
-        image: "adobe-illustrator.png",
+        slug: "adobe-illustrator",
         color: "#FE7903"
       }
       // {
       // 	name: "Adobe InDesign",
       // 	type: "other",
-      // 	image: "adobe-indesign.png",
+      // 	slug: "adobe-indesign",
       // 	color: "#FF3C91"
       // }
     ]

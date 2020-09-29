@@ -4,23 +4,73 @@
 }
 
 .skill-item {
-  max-width: 100px;
-  box-shadow: none;
-  padding: 0 5px;
+  max-width: 102px;
+  margin: 0 10px 30px 0;
 }
 
-.skill-item p.skill-item-title {
-  font-size: 18px;
-  text-align: center;
-  margin: 0 0 30px 0;
-}
-
-.skill-item img {
-  max-width: 100%;
+.skill-item i {
   border: 1px solid #ddd;
   background-color: #fff;
+  margin-bottom: 5px;
 }
-.skill-item:hover img {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+.skill-item:hover i {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
+
+.skill-item .skill-item-title {
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+
+.sprite-tech {
+  background-image: url('/images/technologies/sprite.png');
+  background-repeat: no-repeat;
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.sprite-tech-adobe-illustrator { background-position: -5px -5px; }
+.sprite-tech-adobe-indesign { background-position: -115px -5px; }
+.sprite-tech-adobe-photoshop { background-position: -225px -5px; }
+.sprite-tech-angular { background-position: -335px -5px; }
+.sprite-tech-apache { background-position: -445px -5px; }
+.sprite-tech-apollo { background-position: -555px -5px; }
+.sprite-tech-bootstrap { background-position: -5px -115px; }
+.sprite-tech-c-sharp { background-position: -115px -115px; }
+.sprite-tech-chai { background-position: -225px -115px; }
+.sprite-tech-codeigniter { background-position: -335px -115px; }
+.sprite-tech-css3 { background-position: -445px -115px; }
+.sprite-tech-docker { background-position: -555px -115px; }
+.sprite-tech-dot-net { background-position: -5px -225px; }
+.sprite-tech-expressjs { background-position: -115px -225px; }
+.sprite-tech-gatsby { background-position: -225px -225px; }
+.sprite-tech-git { background-position: -335px -225px; }
+.sprite-tech-graphql { background-position: -445px -225px; }
+.sprite-tech-grunt { background-position: -555px -225px; }
+.sprite-tech-gulp { background-position: -5px -335px; }
+.sprite-tech-html5 { background-position: -115px -335px; }
+.sprite-tech-javascript { background-position: -225px -335px; }
+.sprite-tech-jquery { background-position: -335px -335px; }
+.sprite-tech-laravel { background-position: -445px -335px; }
+.sprite-tech-less { background-position: -555px -335px; }
+.sprite-tech-materialize { background-position: -5px -445px; }
+.sprite-tech-mocha { background-position: -115px -445px; }
+.sprite-tech-mongodb { background-position: -225px -445px; }
+.sprite-tech-mysql { background-position: -335px -445px; }
+.sprite-tech-nodejs { background-position: -445px -445px; }
+.sprite-tech-php { background-position: -555px -445px; }
+.sprite-tech-progress-kendo { background-position: -5px -555px; }
+.sprite-tech-react { background-position: -115px -555px; }
+.sprite-tech-redux { background-position: -225px -555px; }
+.sprite-tech-responsive-design { background-position: -335px -555px; }
+.sprite-tech-restful { background-position: -445px -555px; }
+.sprite-tech-sass { background-position: -555px -555px; }
+.sprite-tech-socket-io { background-position: -665px -5px; }
+.sprite-tech-typescript { background-position: -665px -115px; }
+.sprite-tech-ui-ux { background-position: -665px -225px; }
+.sprite-tech-vue { background-position: -665px -335px; }
+.sprite-tech-webpack { background-position: -665px -445px; }
+.sprite-tech-wordpress { background-position: -665px -555px; }

@@ -19,7 +19,6 @@ export default () => {
           }
           technologies {
             name
-            image
           }
         }
       }

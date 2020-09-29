@@ -23,6 +23,10 @@
   margin: 0;
 }
 
+/*
+    sprites created using https://spritegen.website-performance.org/
+    icons from https://www.iconfinder.com/iconsets/logos-and-brands
+*/
 
 .sprite-tech {
   background-image: url('/images/technologies/sprite.png');

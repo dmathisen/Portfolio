@@ -6,7 +6,7 @@ export default ({ data }) => {
 
   return (
     <Col className="testimonial-item center" l={4}>
-      <img src={imageUrl} alt={data.personName} />
+      <img src={imageUrl} alt={data.personName} loading="lazy" />
 
       <h5>{data.personName}</h5>
 

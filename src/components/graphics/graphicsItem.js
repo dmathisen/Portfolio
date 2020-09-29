@@ -13,7 +13,9 @@ export default ({ data, index, setIsOpen, setPhotoIndex }) => {
   return (
     <Card className="graphics-item center">
       <div className="card-image">
-        <a href="/" onClick={handleClick}><img src={imageUrl} alt={data.name} /></a>
+        <a href="/" onClick={handleClick}>
+          <img src={imageUrl} alt={data.name} loading="lazy" />
+        </a>
       </div>
       <h5>{data.name}</h5>
       <p>

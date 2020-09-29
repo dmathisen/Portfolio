@@ -8,22 +8,22 @@ module.exports = {
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/danmathisen",
-        image: "linkedin.png"
+        slug: "linkedin"
       },
       {
         name: "GitHub",
         url: "https://github.com/dmathisen",
-        image: "github.png"
+        slug: "github"
       },
       {
         name: "StackOverflow",
         url: "https://stackoverflow.com/users/1308734/dmathisen",
-        image: "stack-overflow.png"
+        slug: "stack-overflow"
       },
       {
         name: "Twitter",
         url: "https://twitter.com/dmathisen36",
-        image: "twitter.png"
+        slug: "twitter"
       }
     ],
     testimonials: [

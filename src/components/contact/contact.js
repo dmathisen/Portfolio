@@ -13,7 +13,7 @@ export default () => {
           contact {
             name
             url
-            image
+            slug
           }
         }
       }
@@ -27,15 +27,14 @@ export default () => {
       <Row>
         <Col s={12} className="center">
           <h5>Find Me</h5>
-          {/* icons from https://www.iconfinder.com/iconsets/logos-and-brands */}
-
+          
           {
             contacts.map(contact => {
-              const imageUrl = `/images/social/${contact.image}`;
-
+              const spriteClass = `sprite-social sprite-social-${contact.slug}`;
+              
               return (
                 <a href={contact.url} key={contact.name} className="contact-item" target="_blank" rel="noopener noreferrer">
-                  <img src={imageUrl} alt={contact.name} />
+                  <i className={ spriteClass }></i>
                   <p>{contact.name}</p>
                 </a>
               );

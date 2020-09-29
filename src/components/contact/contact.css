@@ -25,13 +25,15 @@
   margin: 10px;
 }
 
-.contact-item img {
-  width: 80px;
+.contact-item i {
   border: 1px solid #ddd;
   background-color: #fff;
   padding: 10px;
+  background-origin: content-box;
+  width: 84px;
+  height: 84px;
 }
-.contact-item:hover img {
+.contact-item:hover i {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
@@ -67,8 +69,7 @@ input[type="url"]:not(.browser-default):focus:not([readonly]) + label,
 input[type="time"]:not(.browser-default):focus:not([readonly]) + label,
 input[type="date"]:not(.browser-default):focus:not([readonly]) + label,
 input[type="datetime"]:not(.browser-default):focus:not([readonly]) + label,
-input[type="datetime-local"]:not(.browser-default):focus:not([readonly])
-  + label,
+input[type="datetime-local"]:not(.browser-default):focus:not([readonly]) + label,
 input[type="tel"]:not(.browser-default):focus:not([readonly]) + label,
 input[type="number"]:not(.browser-default):focus:not([readonly]) + label,
 input[type="search"]:not(.browser-default):focus:not([readonly]) + label,
@@ -96,3 +97,22 @@ input.valid[type="email"]:not(.browser-default) {
   border-bottom: 1px solid #9e9e9e !important;
   box-shadow: none !important;
 }
+
+
+/*
+    sprites created using https://spritegen.website-performance.org/
+    icons from https://www.iconfinder.com/iconsets/logos-and-brands
+*/
+
+.sprite-social {
+  background-image: url('/images/social/sprite.png');
+  background-repeat: no-repeat;
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+
+.sprite-social-github { background-position: -5px -5px; }
+.sprite-social-linkedin { background-position: -79px -5px; }
+.sprite-social-stack-overflow { background-position: -5px -79px; }
+.sprite-social-twitter { background-position: -79px -79px; }

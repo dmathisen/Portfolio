@@ -76,36 +76,20 @@ module.exports = {
       }
     ],
     websites: [
-      {
-        name: "My Portfolio",
-        desc: "",
-        technologies: [
-          "Node JS",
-          "React",
-          "GraphQL",
-          "Webpack",
-          "Materialize CSS",
-          "UI/UX Design"
-        ],
-        website: "https://danmathisen.com/",
-        image: "portfolio.png"
-      },
-      {
-        name: "MIK Fund Solutions",
-        desc: "",
-        technologies: [
-          "C#",
-          ".NET",
-          "SQL",
-          "Angular",
-          "Kendo",
-          "Typescript",
-          "Less",
-          "UI/UX Design"
-        ],
-        website: "http://www.mikfs.com/",
-        image: "mikfs.png"
-      },
+      // {
+      //   name: "My Portfolio",
+      //   desc: "",
+      //   technologies: [
+      //     "Node JS",
+      //     "React",
+      //     "GraphQL",
+      //     "Webpack",
+      //     "Materialize CSS",
+      //     "UI/UX Design"
+      //   ],
+      //   website: "https://danmathisen.com/",
+      //   image: "portfolio.png"
+      // },
       {
         name: "Doctor OZ",
         desc: "",
@@ -119,42 +103,6 @@ module.exports = {
         technologies: ["HTML", "CSS", "Javascript", "PHP", "Grunt"],
         website: "https://executive.mit.edu/",
         image: "mit-sloan.png"
-      },
-      {
-        name: "Hoboken Brewing Co",
-        desc: "",
-        technologies: [
-          "Wordpress",
-          "PHP",
-          "SQL",
-          "HTML",
-          "CSS",
-          "UI/UX Design"
-        ],
-        website: "https://hobokenbrewing.beer/",
-        image: "hoboken-brewing-co.png"
-      },
-      {
-        name: "WhoWeUse",
-        desc: "",
-        technologies: [
-          "Node JS",
-          "Javascript",
-          "PHP",
-          "MongoDB",
-          "Sass",
-          "Gulp",
-          "UI/UX Design"
-        ],
-        website: "https://www.whoweuse.com/",
-        image: "whoweuse.png"
-      },
-      {
-        name: "Pintmeisters",
-        desc: "",
-        technologies: ["HTML", "CSS", "PHP", "SQL", "UI/UX Design"],
-        website: "https://pintmeisters.com/",
-        image: "pintmeisters.png"
       },
       {
         name: "Barnes and Noble",
@@ -171,12 +119,48 @@ module.exports = {
         image: "circolo-illy.png"
       },
       {
-        name: "Herbalife",
+        name: "Hoboken Brewing Co",
         desc: "",
-        technologies: ["HTML", "CSS", "Javascript", "PHP", "Grunt"],
-        website: "https://video.herbalife.com/",
-        image: "herbalife.png"
+        technologies: [
+          "Wordpress",
+          "PHP",
+          "SQL",
+          "HTML",
+          "CSS",
+          "UI/UX Design"
+        ],
+        website: "https://hobokenbrewing.beer/",
+        image: "hoboken-brewing-co.png"
       },
+      // {
+      //   name: "WhoWeUse",
+      //   desc: "",
+      //   technologies: [
+      //     "Node JS",
+      //     "Javascript",
+      //     "PHP",
+      //     "MongoDB",
+      //     "Sass",
+      //     "Gulp",
+      //     "UI/UX Design"
+      //   ],
+      //   website: "https://www.whoweuse.com/",
+      //   image: "whoweuse.png"
+      // },
+      {
+        name: "Pintmeisters",
+        desc: "",
+        technologies: ["HTML", "CSS", "PHP", "SQL", "UI/UX Design"],
+        website: "https://pintmeisters.com/",
+        image: "pintmeisters.png"
+      },
+      // {
+      //   name: "Herbalife",
+      //   desc: "",
+      //   technologies: ["HTML", "CSS", "Javascript", "PHP", "Grunt"],
+      //   website: "https://video.herbalife.com/",
+      //   image: "herbalife.png"
+      // },
       {
         name: "Unsheltered Voice",
         desc: "",

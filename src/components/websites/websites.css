@@ -1,15 +1,15 @@
 .website-wrapper {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
 .website-item {
-	flex: 0 32%;
+	flex: 0 31%;
+    margin: 0 2% 2% 0 !important;
 }
 
 @media (max-width: 1300px) {
 	.website-item {
-		flex: 0 49%;
+		flex: 0 48%;
 	}
   }
   @media (max-width: 680px) {

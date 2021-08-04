@@ -76,20 +76,20 @@ module.exports = {
       }
     ],
     websites: [
-      // {
-      //   name: "My Portfolio",
-      //   desc: "",
-      //   technologies: [
-      //     "Node JS",
-      //     "React",
-      //     "GraphQL",
-      //     "Webpack",
-      //     "Materialize CSS",
-      //     "UI/UX Design"
-      //   ],
-      //   website: "https://danmathisen.com/",
-      //   image: "portfolio.png"
-      // },
+      {
+        name: "My Portfolio",
+        desc: "",
+        technologies: [
+          "Node JS",
+          "React",
+          "GraphQL",
+          "Webpack",
+          "Materialize CSS",
+          "UI/UX Design"
+        ],
+        website: "https://danmathisen.com/",
+        image: "portfolio.png"
+      },
       {
         name: "Doctor OZ",
         desc: "",

@@ -165,14 +165,14 @@ module.exports = {
         name: "Unsheltered Voice",
         desc: "",
         technologies: ["Wordpress", "PHP", "SQL", "UI/UX Design"],
-        website: "https://unshelteredvoice.org/",
+        website: "https://unshelteredvoice.danmathisen.com/",
         image: "unsheltered-voice.png"
       },
       {
         name: "Alex Eating Pancakes",
         desc: "",
         technologies: ["Javascript", "HTML", "CSS", "PHP", "UI/UX Design"],
-        website: "https://alexeatingpancakes.com/",
+        website: "https://alexeatingpancakes.danmathisen.com/",
         image: "alex-eating-pancakes.png"
       }
     ],

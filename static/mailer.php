@@ -35,7 +35,7 @@
 		echo "Name, email and message are required";
 		exit;
 	} else {
-		$to = "dan@danmathisen.com";
+		$to = "dan.mathisen1@gmail.com";
 		$subject = "Message from danmathisen.com";
 		$msg = "From: $name ($email)\n\n$message";
 

@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/dmathisen/Portfolio#readme",
   "dependencies": {
-    "gatsby": "^5.14.5",
+    "gatsby": "^5.15.0",
     "gatsby-plugin-react-helmet": "^6.14.0",
     "materialize-css": "^1.0.0",
     "react": "^17.0.2",
